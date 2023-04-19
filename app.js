@@ -1,25 +1,23 @@
-var a = 1
-var b = 2
-function sum (a,b){
-    return a+b;
+function sum(num1, num2){
+    return num1+num2;
 };
-var result= sum(a,b);
+ sum(1, 2);
 console.log(result)
 
-function difference (a,b){
-    return a-b;
+function sub (num1, num2){
+    return num1-num2;
 };
-var result = difference (a,b);
+sub (10,5);
 console.log(result)
 
-function multiplied (a,b){
+function multiply (a,b){
     return a*b;
 };
-var result=multiplied (a,b);
+multiply (2, 3);
 console.log(result)
 
 function division (a,b){
     return a/b;
 };
-var result=division (a,b)
+division (10, 5)
 console.log(result) 
